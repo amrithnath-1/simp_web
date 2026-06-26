@@ -1,271 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Discover India</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-    background:#f4f8ff;
-}
-
-/* Hero */
-
-.hero{
-    height:100vh;
-    background:linear-gradient(135deg,#ff9933,#ffffff,#138808);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    color:#222;
-    padding:30px;
-}
-
-.hero-content{
-    max-width:800px;
-}
-
-.hero h1{
-    font-size:70px;
-    margin-bottom:20px;
-    animation:fadeDown 1s;
-}
-
-.hero p{
-    font-size:22px;
-    line-height:1.7;
-    animation:fadeUp 1.5s;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:30px;
-    padding:15px 35px;
-    background:#0d47a1;
-    color:white;
-    text-decoration:none;
-    border-radius:40px;
-    font-size:18px;
-    transition:.3s;
-}
-
-.btn:hover{
-    background:#ff5722;
-    transform:scale(1.08);
-}
-
-/* Section */
-
-section{
-    padding:70px 10%;
-}
-
-section h2{
-    text-align:center;
-    font-size:42px;
-    color:#0d47a1;
-    margin-bottom:50px;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card{
-    background:white;
-    border-radius:18px;
-    padding:30px;
-    text-align:center;
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
-    transition:.4s;
-}
-
-.card:hover{
-    transform:translateY(-12px);
-}
-
-.card span{
-    font-size:60px;
-}
-
-.card h3{
-    margin:20px 0;
-    color:#ff6f00;
-}
-
-.card p{
-    color:#555;
-    line-height:1.6;
-}
-
-/* Facts */
-
-.facts{
-    background:linear-gradient(135deg,#1565c0,#00bcd4);
-    color:white;
-}
-
-.fact-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:25px;
-}
-
-.fact{
-    text-align:center;
-    background:rgba(255,255,255,.15);
-    padding:30px;
-    border-radius:20px;
-}
-
-.fact h1{
-    font-size:48px;
-}
-
-/* Footer */
-
-footer{
-    background:#0d47a1;
-    color:white;
-    text-align:center;
-    padding:25px;
-}
-
-@keyframes fadeDown{
-from{opacity:0;transform:translateY(-50px);}
-to{opacity:1;transform:translateY(0);}
-}
-
-@keyframes fadeUp{
-from{opacity:0;transform:translateY(50px);}
-to{opacity:1;transform:translateY(0);}
-}
-</style>
-
+    <meta charset="UTF-8">
+    <title>Simple Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="hero">
+<h1>Welcome</h1>
 
-<div class="hero-content">
+<p>AMRITH NATH MURALI</p>
 
-<h1>🇮🇳 Incredible India</h1>
+<p>HELLO GUYS</p>
 
-<p>
-India is a land of incredible diversity, vibrant traditions,
-ancient civilizations, breathtaking landscapes, and technological
-innovation. From the majestic Himalayas to the serene backwaters
-of Kerala, India offers experiences unlike anywhere else in the world.
-</p>
+<img src="image.jpg" alt="Random Image">
 
-<a href="#about" class="btn">Explore India</a>
+<h2>Some Notes</h2>
 
-</div>
+<p>I like learning new things on the computer. HTML is not very difficult once you start using it.</p>
 
-</div>
+<p>Today the weather was good. I also listened to some music while making this page.</p>
 
-<section id="about">
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Images</li>
+    <li>Practice</li>
+</ul>
 
-<h2>Why India is Special</h2>
-
-<div class="cards">
-
-<div class="card">
-<span>🏛️</span>
-<h3>Rich Heritage</h3>
-<p>
-India is home to centuries-old monuments, UNESCO World Heritage Sites,
-and one of the world's oldest civilizations.
-</p>
-</div>
-
-<div class="card">
-<span>🎉</span>
-<h3>Colorful Festivals</h3>
-<p>
-Celebrate Diwali, Holi, Eid, Christmas, Pongal, Onam and hundreds of
-regional festivals full of joy and culture.
-</p>
-</div>
-
-<div class="card">
-<span>🍛</span>
-<h3>Delicious Cuisine</h3>
-<p>
-Every state has its own unique flavors, spices, sweets, and traditional
-foods loved across the globe.
-</p>
-</div>
-
-<div class="card">
-<span>💻</span>
-<h3>Innovation</h3>
-<p>
-India is a global leader in software, startups, digital technology,
-space exploration, and engineering.
-</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="facts">
-
-<h2 style="color:white;">India at a Glance</h2>
-
-<div class="fact-grid">
-
-<div class="fact">
-<h1>1.4B+</h1>
-<p>Population</p>
-</div>
-
-<div class="fact">
-<h1>28</h1>
-<p>States</p>
-</div>
-
-<div class="fact">
-<h1>22</h1>
-<p>Official Languages</p>
-</div>
-
-<div class="fact">
-<h1>5000+</h1>
-<p>Years of History</p>
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<h2>❤️ Unity in Diversity ❤️</h2>
-
-<p>
-"India is not just a country; it is an emotion where cultures,
-traditions, and dreams come together."
-</p>
-
-<br>
-
-<p>Made with ❤️ using HTML & CSS</p>
-
-</footer>
+<p>Maybe I will add more pages later.</p>
 
 </body>
 </html>
